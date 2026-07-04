@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/neonomino-play/sw.js', { scope: '/neonomino-play/' })})}
